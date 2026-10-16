@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact THB VISA for professional visa consultancy and immigration support. Get in touch via our form, phone, or visit our office in Dhaka.">
+    <title>Contact Us | THB VISA | Free Consultation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 4rem;
+        }
+        .contact-info-item {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .contact-info-item i {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            background: var(--bg-alt);
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        .form-control {
+            width: 100%;
+            padding: 0.8rem 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-family: inherit;
+            transition: var(--transition);
+        }
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(2, 76, 170, 0.1);
+        }
+        @media (max-width: 768px) {
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <i class="fas fa-passport"></i>
+                    THB VISA
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="nav-cta">
+                    <a href="contact.html" class="btn btn-sm">Free Consultation</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header" style="background: var(--primary-dark); padding: 80px 0; color: white; text-align: center;">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>We're Here to Help You With Your Global Journey</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h2 class="section-title text-left" style="margin-bottom: 2rem;">Get In Touch</h2>
+                        <div class="contact-info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Office Location</h3>
+                                <p>Level-10, Shyamoli Square, Shyamoli, Dhaka-1207, Bangladesh</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h3>Phone Numbers</h3>
+                                <p>Call Centre: +88 09639-321 355</p>
+                                <p>Direct/Mobile: +880 1896-204455</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email Address</h3>
+                                <p>visa@thb.com.bd</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Office Hours</h3>
+                                <p>Sun - Thu: 09:00 - 18:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form card">
+                        <form action="#" id="contactForm">
+                            <div class="grid grid-2" style="gap: 1.5rem;">
+                                <div class="form-group">
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" class="form-control" placeholder="john@example.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" class="form-control" required>
+                                    <option value="" disabled selected>Select Visa Type</option>
+                                    <option value="student">Student Visa</option>
+                                    <option value="tourist">Tourist Visa</option>
+                                    <option value="business">Business Visa</option>
+                                    <option value="other">Other Inquiry</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" rows="5" class="form-control" placeholder="How can we help you?" required></textarea>
+                            </div>
+                            <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            <div class="container" style="margin-top: 4rem;">
+                <h2 class="section-title">Client Success Stories</h2>
+                <div class="grid grid-3">
+                    <div class="card">
+                        <div class="stars" style="color: var(--accent-color); margin-bottom: 0.5rem;">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p>"I'm very satisfied by their work.. they take care each and everything and very conscious about their work.. preparing documents with 100% accuracy."</p>
+                        <h4 class="mt-2">- Sonam Angel</h4>
+                    </div>
+                    <div class="card">
+                        <div class="stars" style="color: var(--accent-color); margin-bottom: 0.5rem;">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p>"Indeed THB is a reliable visa processing agency. Their team is incredibly helpful and responsive. They make the experience smooth and hassle-free."</p>
+                        <h4 class="mt-2">- Munmun Akhtar</h4>
+                    </div>
+                    <div class="card">
+                        <div class="stars" style="color: var(--accent-color); margin-bottom: 0.5rem;">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p>"Absolutely satisfied with the service. Hundred percent authentic & professional service. Highly recommended!"</p>
+                        <h4 class="mt-2">- Fatema Mostakin</h4>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <p><strong>Google Rating:</strong> ⭐ 4.9 (18+ Verified Reviews)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section" style="padding: 0;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.15653424168!2d90.36291707589574!3d23.77475108810237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bfeaea8d7b8f%3A0xdcac5a6e037e353d!2sTHB%20VISA%20SERVICES%20LTD.%20%7C%20The%20Best%20Visa%20Processing%20Company%2FAgency%20in%20Bangladesh!5e0!3m2!1sen!2sbd!4v1715197800000!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo text-white">
+                        <i class="fas fa-passport"></i>
+                        THB VISA
+                    </a>
+                    <p>Your Trusted Premium Visa Consultancy Partner in Bangladesh. Delivering high-standard services for students and travelers.</p>
+                    <div class="social-links">
+                        <a href="social.html"><i class="fab fa-facebook"></i></a>
+                        <a href="social.html"><i class="fab fa-twitter"></i></a>
+                        <a href="social.html"><i class="fab fa-instagram"></i></a>
+                        <a href="social.html"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="service-student.html">Student Visa</a></li>
+                        <li><a href="service-tourist.html">Tourist Visa</a></li>
+                        <li><a href="service-business.html">Business Visa</a></li>
+                        <li><a href="service-medical.html">Medical Visa</a></li>
+                        <li><a href="service-work.html">Work Permit</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Level-10, Shyamoli Square, Shyamoli, Dhaka-1207</li>
+                        <li><i class="fas fa-phone"></i> +88 09639-321 355</li>
+                        <li><i class="fas fa-mobile-alt"></i> +880 1896-204455</li>
+                        <li><i class="fas fa-envelope"></i> visa@thb.com.bd</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> THB VISA. All Rights Reserved. Built with 100% SEO Standards.</p>
+                <p style="font-size: 0.8rem; opacity: 0.7; margin-top: 0.5rem;">Developed by <a href="https://exploitinject.dev/" target="_blank" style="color: inherit; text-decoration: underline;">ExploitInject</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for your message! Our consultants will get back to you shortly.');
+            e.target.reset();
+        });
+    </script>
+</body>
+</html>
